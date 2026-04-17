@@ -1,0 +1,5 @@
+CREATE DATABASE metastore;
+CREATE DATABASE nessie;
+CREATE DATABASE airflow;
+CREATE DATABASE mlflow;
+CREATE DATABASE keycloak;\n

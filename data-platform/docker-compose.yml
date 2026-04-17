@@ -1,0 +1,10 @@
+
+
+# Main entrypoint. Start everything with:
+# docker-compose -f docker-compose.yml -f docker-compose.infra.yml -f docker-compose.lakehouse.yml -f docker-compose.orchestration.yml -f docker-compose.observability.yml up -d
+
+services:
+  # Dummy service to keep the base file valid if run alone
+  platform-core:
+    image: alpine
+    command: echo "Unified Data Platform Started"\n

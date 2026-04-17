@@ -1,0 +1,5 @@
+apache-airflow-providers-apache-spark
+apache-airflow-providers-trino
+great-expectations
+pyspark==3.5.0
+pandas\n

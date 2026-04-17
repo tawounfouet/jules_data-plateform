@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EcommerceEvent",
+  "type": "object",
+  "properties": {
+    "user_id": {
+      "type": "integer"
+    },
+    "event": {
+      "type": "string",
+      "enum": ["click", "purchase", "view"]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["user_id", "event", "timestamp"]
+}\n
